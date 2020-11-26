@@ -1,0 +1,3 @@
+#!/bin/sh
+. ./defs.sh
+docker exec -ti mongodb${MONGO_VERSION} /bin/bash
